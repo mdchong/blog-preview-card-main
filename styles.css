@@ -157,6 +157,7 @@ body {
 .heading {
     font-size: var(--figtree-size-20);
     color: var(--gray-950);
+    font-weight: var(--figtree-bold)
 }
 
 .heading a {
