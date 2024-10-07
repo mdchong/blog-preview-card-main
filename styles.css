@@ -189,7 +189,7 @@ body {
 
 @media screen and (min-width: 375px) {
   .container {
-    max-width: 33rem;
+    max-width: 24rem;
   }
 
   .heading a:hover {
