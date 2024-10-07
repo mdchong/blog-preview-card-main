@@ -89,7 +89,7 @@ textarea:not([rows]) {
     --figtree-bold: 700;
     --figtree-medium: 500;
 
-    --figtree-size-20: 1.25rem;
+    --figtree-size-24: 1.5rem;
     --figtree-size-16: 1rem;
     --figtree-size-14:  0.875rem;
 
@@ -155,7 +155,7 @@ body {
 }
 
 .heading {
-    font-size: var(--figtree-size-20);
+    font-size: var(--figtree-size-24);
     color: var(--gray-950);
     font-weight: var(--figtree-bold)
 }
