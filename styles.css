@@ -75,8 +75,6 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
-
-
 /* Style Guide */
 :root {
     /* Colors */
@@ -105,6 +103,8 @@ textarea:not([rows]) {
     --spacing-50: 0.25rem;
 }
 
+/* Mobile */
+
 html {
     background-color: var(--yellow);
     min-height: 100svh;
@@ -118,6 +118,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 /* Card */
@@ -126,7 +128,6 @@ body {
     border-radius: 20px;
     border: 1px solid var(--gray-950);
     max-width: 20.5rem;
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -136,9 +137,7 @@ body {
 }
 
 .illustration {
-    display: block;
     border-radius: 10px;
-    max-width: 100%;
 }
 
 .tag {
@@ -155,9 +154,13 @@ body {
     color: var(--gray-950);
 }
 
-h2 {
+.heading {
     font-size: var(--figtree-size-20);
     color: var(--gray-950);
+}
+
+.heading a {
+  text-decoration: none;
 }
 
 .text {
@@ -180,4 +183,17 @@ h2 {
     margin: 0;
     font-size: var(--figtree-size-14);
     font-weight: var(--figtree-bold);
+}
+
+/* Desktop */
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 33rem;
+  }
+
+  .heading a:hover {
+    cursor: pointer;
+    color: var(--yellow);
+  }
 }
