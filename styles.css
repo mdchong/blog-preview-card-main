@@ -141,7 +141,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1.75rem;
     padding: 1.5rem;
     box-shadow: 8px 8px 0px 0px #000;
 }
@@ -153,13 +152,15 @@ body {
 .tag {
   max-width: 4.5rem;
   border-radius: 4px;
-  background-color: var(--yellow)
+  background-color: var(--yellow);
+  margin-top: 1.5rem;
 }
 
 .learning {
   font-size: 0.75rem;
   font-weight: var(--figtree-bold);
   text-align: center;
+  margin-top: 0;
 }
 
 .published {
@@ -170,7 +171,8 @@ body {
 .heading {
     font-size: var(--figtree-size-24);
     color: var(--gray-950);
-    font-weight: var(--figtree-bold)
+    font-weight: var(--figtree-bold);
+    margin-top: 0.75rem;
 }
 
 .heading a {
@@ -180,6 +182,7 @@ body {
 .text {
     font-size: 0.875rem;
     color: var(--gray-500);
+    margin-top:  0.75rem;
 }
 
 /* Author */
@@ -187,6 +190,7 @@ body {
     display: flex;
     align-items: center;
     gap: var(--spacing-150);
+    margin-top: 1.5rem;
 }
 
 .avatar {
