@@ -115,12 +115,9 @@ textarea:not([rows]) {
   outline: 1px solid red;
 }
 
-html {
+body {
     background-color: var(--yellow);
     min-height: 100svh;
-}
-
-body {
     font-family: var(--font-figtree);
     line-height: var(--line-height);
     letter-spacing: var(--letter-spacing);
