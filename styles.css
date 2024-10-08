@@ -134,7 +134,7 @@ body {
     background: var(--white);
     border-radius: 20px;
     border: 1px solid var(--gray-950);
-    max-width: 20.5rem;
+    max-width: 24rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -176,6 +176,10 @@ body {
   text-decoration: none;
 }
 
+.heading a:hover {
+  color: var(--yellow);
+}
+
 .text {
     font-size: 0.875rem;
     color: var(--gray-500);
@@ -199,18 +203,3 @@ body {
     font-size: var(--figtree-size-14);
     font-weight: var(--figtree-bold);
 }
-
-/* Desktop */
-
-@media screen and (min-width: 375px) {
-  .container {
-    max-width: 24rem;
-  }
-
-  .heading a:hover {
-    cursor: pointer;
-    color: var(--yellow);
-  }
-}
-
-/* this challenge doesn't need a media query. The whole point of using max width instead of width is so that the card can already shrink narrower when viewed on a small screen. Use the larger max width and it will adapt naturally without a media query.*/
