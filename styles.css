@@ -1,5 +1,6 @@
 /* CSS by Michelle Chong */
 
+/* CSS RESET */
 
 /* Box sizing rules */
 *,
@@ -103,16 +104,7 @@ textarea:not([rows]) {
     --spacing-50: 0.25rem;
 }
 
-/* Mobile */
-
-*{
-  outline: 1px solid green;
-}
-
-*:nth-child(2) {
-  outline: 1px solid red;
-}
-
+/* CSS Start! */
 main {
   max-width: 100%;
 }
@@ -139,9 +131,9 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 1.5rem;
+    margin: 1.5rem;
     box-shadow: 8px 8px 0px 0px #000;
     position: relative;
-    margin: 1.5rem;
 }
 
 .illustration {
