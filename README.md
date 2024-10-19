@@ -28,7 +28,7 @@ Users should be able to:
 ### Screenshot
 
 Mobile View
-<img src="./screenshot/screencapture-mdchong-github-io-blog-preview-card-main-2024-10-06-20_49_49.png" alt="Mobile View of the Blog Preview Card Page">
+<img src="./screenshot/screencapture-mdchong-github-io-blog-preview-card-main-2024-10-06-20_49_49.png" alt="Mobile View of the Blog Preview Card Page" width="150" height="auto">
 
 Web View
 <img src="./screenshot/screencapture-mdchong-github-io-blog-preview-card-main-2024-10-06-20_49_24.png" alt="Web View of the Blog Preview Card Page">
